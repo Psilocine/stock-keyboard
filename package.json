@@ -1,0 +1,64 @@
+{
+  "name": "stock-keyboard",
+  "version": "0.0.1",
+  "description": "基于 Vue 的股票键盘组件",
+  "private": false,
+  "license": "MIT",
+  "author": "psilocine",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name stockkeyboard --dest lib packages/index.js"
+  },
+  "main": "lib/stockkeyboard.umd.min.js",
+  "keywords": [
+    "keyboard",
+    "股票键盘",
+    "stock keyboard",
+    "vue",
+    "component"
+  ],
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "homepage": "https://github.com/psilocine/stock-keyboard#README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psilocine/stock-keyboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/psilocine/stock-keyboard/issues"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
