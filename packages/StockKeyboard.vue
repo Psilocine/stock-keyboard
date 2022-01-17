@@ -1,5 +1,5 @@
 <template>
-  <div class="stock-keyboard">
+  <div class="stock-keyboard" ref="refKeyboard">
     <div
       class="keyboard keyboard__number"
       :class="visible && isNumber ? 'show' : ''"
